@@ -116,6 +116,6 @@ if st.button("Predict Price"):
     input_scaled = scaler.transform(input_df)
 
     # Prediction
-    prediction = model.predict(input_scaled)[0]
+    prediction = model.predict(input_scaled)[0]khewiugfcewhjke;odjewkckewjlwjfirwclkw
 
     st.success(f"🏠 Estimated House Price: ${prediction:,.2f}")
